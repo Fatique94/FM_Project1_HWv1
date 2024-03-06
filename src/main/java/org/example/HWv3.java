@@ -1,6 +1,6 @@
 package org.example;
-import java.sql.SQLOutput;
-import java.util.Scanner; // What is a homerwork without the good ol' scanner import
+
+import java.util.Scanner; // What is a homework without the good ol' scanner import
 public class HWv3 {
     public static void main(String[] args) {
 
@@ -90,6 +90,7 @@ public class HWv3 {
 
              default: // Sets default value when no case conditions are met
                  System.out.println("Incorrect input! Please enter a number from 1 to 7!");
+                 break;
                  // Prints message with condition
          }
 

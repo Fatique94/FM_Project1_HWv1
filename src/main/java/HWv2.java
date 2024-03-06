@@ -14,9 +14,9 @@ public class HWv2 {
 
         String firstName = scanner.nextLine(); // Read name of user from console (expecting input)
 
-        String exp1repl = exp1org.replaceAll("Human", firstName); // Replacing Human with the user's input
+        String exp1repl = exp1org.replace("Human", firstName); // Replacing Human with the user's input
 
-        System.out.println(exp1repl); // Pringting the result of the replacement
+        System.out.println(exp1repl); // Printing the result of the replacement
 
         System.out.println("-----------------------------"); // Divider
 
